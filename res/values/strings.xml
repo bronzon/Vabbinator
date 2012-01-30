@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vabinator</string>
+    <string name="reportButtonText">Anmäl VAB</string>
+    <string name="removeConfirmation">Ta bort ärende?</string>
+    <string name="reMail">Skicka nytt mail till arbetet?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="reported">Anmäldes:</string>
+    <string name="for_child">För:</string>
+</resources>

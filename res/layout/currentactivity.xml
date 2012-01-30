@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <!-- first row -->
+    <TextView android:id="@+id/currentInfoLabel"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+    <!-- second row-->
+    <ImageButton android:id="@+id/currentAddDate"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/selector_add_date"
+                 android:layout_below="@id/currentInfoLabel"
+                 android:padding="0dip"
+                 android:adjustViewBounds="true"
+            />
+
+    <ImageButton android:id="@+id/currentReportBackToWork"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/selector_report_back_to_work"
+                 android:layout_toRightOf="@id/currentAddDate"
+                 android:layout_below="@id/currentInfoLabel"
+                 android:padding="0dip"
+                 android:adjustViewBounds="true"
+            />
+
+
+    <!-- third row -->
+
+    <ImageButton android:id="@+id/currentShowCalendar"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/selector_show_calendar"
+                 android:layout_below="@id/currentAddDate"
+                 android:padding="0dip"
+                 android:adjustViewBounds="true"
+            />
+    <ToggleButton android:id="@+id/currentSentTestimonial"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textOn=""
+                  android:textOff=""
+                  android:background="@drawable/selector_toggle_testimonial"
+                  android:layout_toRightOf="@id/currentShowCalendar"
+                  android:layout_below="@id/currentAddDate"
+            />
+    <!-- fourth row -->
+
+    <ToggleButton android:id="@+id/currentRequestedMoney"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textOn=""
+                  android:textOff=""
+                  android:background="@drawable/selector_toggle_testimonial"
+                  android:layout_below="@id/currentShowCalendar"
+            />
+
+    <ToggleButton android:id="@+id/currentCloseEvent"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textOn=""
+                  android:textOff=""
+                  android:background="@drawable/selector_toggle_closed"
+                  android:layout_toRightOf="@id/currentRequestedMoney"
+                  android:layout_below="@id/currentShowCalendar"
+            />
+</RelativeLayout>
