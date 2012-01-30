@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/roboguice-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/simple-xml-2.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/guice-2.0-no_aop.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
