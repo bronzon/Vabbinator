@@ -6,7 +6,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 import se.mockachino.annotations.Mock;
-import se.olle.vabinator.domain.Person;
+import se.olle.vabinator.domain.Child;
 import se.olle.vabinator.domain.VabEvent;
 import se.olle.vabinator.service.IDGenerator;
 
@@ -45,7 +45,7 @@ public class VabEventDaoXmlSimpleImplTest {
 
         when(idGenerator.generateRandomLongId()).thenReturn(123l);
         when(context.openFileOutput(any(String.class), any(Integer.class))).thenReturn(new FileOutputStream(new File(temporaryFolderRoot, FILE_NAME)));
-        VabEvent vabEvent = new VabEvent(new Person("asdasd", "asdasd"), new Person("asd", "asd"), new Date());
+        VabEvent vabEvent = new VabEvent(new Child("asdasd", "asdasdg"), new Date());
         vabEventDaoXmlSimple.save(vabEvent);
 
         when(context.getFilesDir()).thenReturn(temporaryFolderRoot);
@@ -63,7 +63,7 @@ public class VabEventDaoXmlSimpleImplTest {
         VabEventDaoXmlSimpleImpl vabEventDaoXmlSimple = new VabEventDaoXmlSimpleImpl(context, idGenerator);
         when(idGenerator.generateRandomLongId()).thenReturn(123l);
         when(context.openFileOutput(any(String.class), any(Integer.class))).thenReturn(new FileOutputStream(new File(temporaryFolderRoot, FILE_NAME)));
-        VabEvent vabEvent = new VabEvent(new Person("asdasd", "asdasd"), new Person("asd", "asd"), new Date());
+        VabEvent vabEvent = new VabEvent(new Child("asdasd", "asdasd"), new Date());
         vabEventDaoXmlSimple.save(vabEvent);
 
         when(context.openFileInput(FILE_NAME)).thenReturn(new FileInputStream(new File(temporaryFolderRoot, FILE_NAME)));

@@ -18,9 +18,7 @@ public class VabEvent {
     @Attribute(required = false)
     private boolean sentTestimonial = false;
     @Element
-    private Person child;
-    @Element
-    private Person parent;
+    private Child child;
     @Attribute
     private Date dateOfReport;
     @Attribute
@@ -29,9 +27,8 @@ public class VabEvent {
     private List<Date> dates = new ArrayList<Date>();
 
 
-    public VabEvent(Person child, Person parent, Date dateOfReport) {
+    public VabEvent(Child child, Date dateOfReport) {
         this.child = child;
-        this.parent = parent;
         this.dateOfReport = dateOfReport;
     }
 
@@ -47,12 +44,8 @@ public class VabEvent {
         return reported;
     }
 
-    public Person getChild() {
+    public Child getChild() {
         return child;
-    }
-
-    public Person getParent() {
-        return parent;
     }
 
     public Date getDateOfReport() {

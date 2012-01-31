@@ -9,18 +9,25 @@
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Personal">
-        <EditTextPreference android:title="Child personnummer" android:key="childPnrSetting"
+        <EditTextPreference android:title="Child personnummer" android:key="childPnr"
                             android:summary="Personnummer of your child, used in text to FK."/>
-        <EditTextPreference android:title="Your personnummer" android:key="parentPnrSetting"
+        <EditTextPreference android:title="Child name" android:key="childName"
+                            android:summary="Name of child, used as display only."/>
+        <EditTextPreference android:title="Your personnummer" android:key="parentPnr"
                             android:summary="Your personnummer, used in text to FK"/>
     </PreferenceCategory>
 
     <PreferenceCategory android:title="Email">
+        <EditTextPreference android:title="Subject" android:key="emailSubject"
+                            android:summary="The subject used in the email sent to your employer"
+                            android:defaultValue="VAB"/>
         <EditTextPreference android:title="Work report VAB email" android:key="workEmail"
                             android:summary="Address used when reporting VAB to work"/>
         <EditTextPreference android:title="Initial email text" android:key="startEmailText"
-                            android:summary="Text sent to work when starting a VAB event"/>
-        <EditTextPreference android:title="Ending email text" android:key="startEmailText"
-                            android:summary="Text sent to work when your back in business"/>
+                            android:summary="Text sent to work when starting a VAB event"
+                            android:defaultValue="I am home today due to VAB"/>
+        <EditTextPreference android:title="Ending email text" android:key="endEmailText"
+                            android:summary="Text sent to work when your back in business"
+                            android:defaultValue="I am back from VAB"/>
     </PreferenceCategory>
 </PreferenceScreen>

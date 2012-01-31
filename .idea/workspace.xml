@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b93e5384-fd54-4dd0-a6f9-9c19319764af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/button_prefs_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/selector_prefs.xml" />
+    <list default="true" id="b93e5384-fd54-4dd0-a6f9-9c19319764af" name="Default" comment="using selector for options menu">
+      <change type="MOVED" beforePath="C:\cygwin\home\bronzon\git\Vabbinator\src\se\olle\vabinator\domain\Person.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/domain/Child.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/options.xml" afterPath="$PROJECT_DIR$/res/menu/options.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vabbinator.iml" afterPath="$PROJECT_DIR$/Vabbinator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/res/xml/preferences.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/olle/vabinator/domain/VabEvent.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/domain/VabEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/EmailSettings.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/EmailSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/PersonalSettings.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/PersonalSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/olle/vabinator/modules/VabModule.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/modules/VabModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/EmailWorkReporterImpl.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/EmailWorkReporterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/se/olle/vabinator/service/VabServiceImpl.java" afterPath="$PROJECT_DIR$/src/se/olle/vabinator/service/VabServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImplTest.java" afterPath="$PROJECT_DIR$/test/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImplTest.java" />
     </list>
     <ignored path="Vabbinator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,43 +71,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApplicationPreferenceActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/preferences/ApplicationPreferenceActivity.java">
+      <file leaf-file-name="EmailWorkReporterImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/EmailWorkReporterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="75" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="40" column="120" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTabActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/MainTabActivity.java">
+      <file leaf-file-name="VabEventDaoXmlSimpleImplTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="49" selection-start="1844" selection-end="1889" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="52" column="0" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OptionsMenuHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/utils/OptionsMenuHandler.java">
+      <file leaf-file-name="VabEventDaoXmlSimpleImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionsMenuHandlerImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/utils/OptionsMenuHandlerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+            <state line="61" column="0" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,52 +101,65 @@
       <file leaf-file-name="VabModule.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/modules/VabModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="93" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.0">
+            <state line="41" column="79" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/CurrentActivity.java">
+      <file leaf-file-name="VabServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/service/VabServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="83" selection-start="4697" selection-end="4697" vertical-scroll-proportion="0.0">
+            <state line="29" column="17" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selector_prefs.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/selector_prefs.xml">
+      <file leaf-file-name="Child.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/Child.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="87" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="11" column="31" selection-start="311" selection-end="311" vertical-scroll-proportion="0.25325885">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selector_report_back_to_work.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/selector_report_back_to_work.xml">
+      <file leaf-file-name="PersonalSettings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/PersonalSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="5" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmailSettings.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/EmailSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="101" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VabEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/VabEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VabEventAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/adaptors/VabEventAdapter.java">
+      <file leaf-file-name="ReporterServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/ReporterServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/menu/options.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="24" selection-start="235" selection-end="235" vertical-scroll-proportion="0.12662943">
+            <state line="19" column="20" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,17 +188,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/xml/preference.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/se/olle/vabinator/activities/preferences/ApplicationPreferenceActivity.java" />
         <option value="$PROJECT_DIR$/src/se/olle/vabinator/utils/OptionsMenuHandler.java" />
         <option value="$PROJECT_DIR$/src/se/olle/vabinator/utils/OptionsMenuHandlerImpl.java" />
-        <option value="$PROJECT_DIR$/src/se/olle/vabinator/modules/VabModule.java" />
         <option value="$PROJECT_DIR$/src/se/olle/vabinator/activities/MainTabActivity.java" />
         <option value="$PROJECT_DIR$/src/se/olle/vabinator/activities/CurrentActivity.java" />
         <option value="$PROJECT_DIR$/res/drawable/selector_prefs.xml" />
         <option value="$PROJECT_DIR$/res/menu/options.xml" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/EmailSettings.java" />
+        <option value="$PROJECT_DIR$/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/PersonalSettings.java" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/domain/VabEvent.java" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/service/VabServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/modules/VabModule.java" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/EmailWorkReporterImpl.java" />
+        <option value="$PROJECT_DIR$/test/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImplTest.java" />
+        <option value="$PROJECT_DIR$/src/se/olle/vabinator/domain/Child.java" />
       </list>
     </option>
   </component>
@@ -256,6 +267,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -304,7 +355,103 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reporter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vabbinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vabinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -380,24 +527,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vabbinator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Vabbinator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -405,12 +534,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -418,6 +550,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -430,6 +563,34 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Vabbinator">
+    <configuration default="false" name="VabEventDaoXmlSimpleImplTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="se.olle.vabinator.persistance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Vabbinator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="se.olle.vabinator.persistance" />
+      <option name="MAIN_CLASS_NAME" value="se.olle.vabinator.persistance.VabEventDaoXmlSimpleImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -617,8 +778,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Vabbinator" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VabEventDaoXmlSimpleImplTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -667,14 +829,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.49509802" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.49264705" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938725" sideWeight="0.6705069" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32949308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949308" sideWeight="0.49754903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32949308" sideWeight="0.49509802" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -715,7 +877,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing unused projectfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="using selector for options menu" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -731,6 +893,7 @@
     <MESSAGE value="adding junit" />
     <MESSAGE value="adding project files" />
     <MESSAGE value="removing unused projectfile" />
+    <MESSAGE value="using selector for options menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -740,124 +903,210 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/EmailSettings.java">
+    <entry file="jar://C:/android/android-sdk/platforms/android-10/android.jar!/android/content/SharedPreferences.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="0.12208258">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/PersonalSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/utils/EventLabelTextGeneratorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="129" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+        <state line="13" column="11" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/VabReporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="161" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/BackToWorkReporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/SmsReporterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/preferences.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
+        <state line="13" column="77" selection-start="960" selection-end="969" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/VabEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
+        <state line="12" column="13" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/adaptors/VabEventAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/preferences/ApplicationPreferenceActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="75" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/utils/OptionsMenuHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/modules/VabModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="93" selection-start="1901" selection-end="1901" vertical-scroll-proportion="0.0">
+        <state line="41" column="79" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/utils/OptionsMenuHandlerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/PersonalSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/MainTabActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="49" selection-start="1844" selection-end="1889" vertical-scroll-proportion="0.0">
+        <state line="23" column="5" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/activities/CurrentActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/settings/EmailSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="83" selection-start="4697" selection-end="4697" vertical-scroll-proportion="0.0">
+        <state line="33" column="101" selection-start="982" selection-end="982" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/EmailWorkReporterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="120" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/selector_report_back_to_work.xml">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/reporter/impl/ReporterServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="20" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/selector_prefs.xml">
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/service/VabServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="87" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="29" column="17" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/options.xml">
+    <entry file="file://$PROJECT_DIR$/test/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="235" selection-end="235" vertical-scroll-proportion="0.12662943">
+        <state line="52" column="0" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/persistance/VabEventDaoXmlSimpleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2144" selection-end="2144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/olle/vabinator/domain/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="311" selection-end="311" vertical-scroll-proportion="0.25325885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-1.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Vabbinator</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>libs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

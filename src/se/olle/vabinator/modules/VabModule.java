@@ -8,7 +8,6 @@ import com.google.inject.Scopes;
 import com.google.inject.Singleton;
 import se.olle.vabinator.R;
 import se.olle.vabinator.domain.settings.EmailSettings;
-import se.olle.vabinator.domain.settings.PersonalSettings;
 import se.olle.vabinator.persistance.VabEventDao;
 import se.olle.vabinator.persistance.VabEventDaoXmlSimpleImpl;
 import se.olle.vabinator.reporter.BackToWorkReporter;
@@ -42,9 +41,9 @@ public class VabModule extends AbstractModule {
 
     @Provides
     @Singleton
-    VabReporter getVabReporter(EmailSettings emailSettings) {
+    VabReporter getVabReporter(EmailSettings emailSettings, Context context) {
         List<VabReporter> reporters = new ArrayList<VabReporter>();
-        reporters.add(new EmailWorkReporterImpl(emailSettings));
+        reporters.add(new EmailWorkReporterImpl(context, emailSettings));
         reporters.add(new SmsReporterImpl());
         VabReporter reporter = new ReporterServiceImpl(reporters);
         return reporter;
@@ -52,21 +51,10 @@ public class VabModule extends AbstractModule {
 
     @Provides
     @Singleton
-    PersonalSettings getCurrentPersonalSettings() {
-        return PersonalSettings.DEFAULT_PERSONAL_SETTINGS;
-    }
-
-    @Provides
-    @Singleton
-    EmailSettings getCurrentEmailSettings() {
-        return EmailSettings.DEFAULT_EMAIL_SETTINGS;
-    }
-
-    @Provides
-    @Singleton
     EventLabelTextGenerator getEventLabelTextGenerator(Context context) {
         Resources resources = context.getResources();
         return new EventLabelTextGeneratorImpl(resources.getString(R.string.reported), resources.getString(R.string.for_child));
+        //TODO: inject the strings directly?
     }
 
 

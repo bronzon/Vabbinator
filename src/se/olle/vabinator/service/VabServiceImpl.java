@@ -2,6 +2,7 @@ package se.olle.vabinator.service;
 
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
+import se.olle.vabinator.domain.Child;
 import se.olle.vabinator.domain.VabEvent;
 import se.olle.vabinator.domain.settings.PersonalSettings;
 import se.olle.vabinator.persistance.VabEventDao;
@@ -24,7 +25,7 @@ public class VabServiceImpl implements VabService {
 
     @Override
     public void doVab() {
-        VabEvent event = new VabEvent(personalSettings.getChild(), personalSettings.getParent(), new Date());
+        VabEvent event = new VabEvent(new Child(personalSettings.getChildPersonnummer(), personalSettings.getChildName()), new Date());
         vabEventDao.save(event);
         reporter.reportVAB(event);
         event.setReported(true);

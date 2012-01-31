@@ -1,52 +1,37 @@
 package se.olle.vabinator.domain.settings;
 
 
+import android.content.SharedPreferences;
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
+
+@Singleton
 public class EmailSettings {
-    public static final EmailSettings DEFAULT_EMAIL_SETTINGS = new EmailSettings("", "Jag är hemma med sjukt barn", "Jag är tillbaka på kontoret");
+    private final SharedPreferences sharedPreferences;
 
-    public EmailSettings(String mailTo, String reportVabText, String reportBackToWorkText) {
-        this.mailTo = mailTo;
-        this.reportVabText = reportVabText;
-        this.reportBackToWorkText = reportBackToWorkText;
+    @Inject
+    public EmailSettings(SharedPreferences sharedPreferences) {
+        this.sharedPreferences = sharedPreferences;
     }
 
-    public EmailSettings() {
-
-    }
-
-    private String mailTo;
-    private String reportVabText;
-    private String reportBackToWorkText;
-
-    public String getMailTo() {
-        return mailTo;
-    }
-
-    public void setMailTo(String mailTo) {
-        this.mailTo = mailTo;
+    public String getMailToAddress() {
+        return sharedPreferences.getString("workEmail", null);
     }
 
     public String getReportVabText() {
-        return reportVabText;
+        return sharedPreferences.getString("startEmailText", null);
     }
 
-    public void setReportVabText(String reportVabText) {
-        this.reportVabText = reportVabText;
+    public String getReportBackToWorkText() {
+        return sharedPreferences.getString("endEmailText", null);
+    }
+
+    public String getSubjectText() {
+        return sharedPreferences.getString("emailSubject", null);
     }
 
     @Override
     public String toString() {
-        return "EmailSettings{" +
-                "mailTo='" + mailTo + '\'' +
-                ", reportVabText='" + reportVabText + '\'' +
-                '}';
-    }
-
-    public String getReportBackToWorkText() {
-        return reportBackToWorkText;
-    }
-
-    public void setReportBackToWorkText(String reportBackToWorkText) {
-        this.reportBackToWorkText = reportBackToWorkText;
+        return getMailToAddress() + getReportBackToWorkText() + getReportVabText() + getSubjectText();
     }
 }

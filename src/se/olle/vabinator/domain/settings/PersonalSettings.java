@@ -1,33 +1,29 @@
 package se.olle.vabinator.domain.settings;
 
-import se.olle.vabinator.domain.Person;
+import android.content.SharedPreferences;
+import com.google.inject.Inject;
+import com.google.inject.Singleton;
 
+@Singleton
 public class PersonalSettings {
+    private SharedPreferences sharedPreferences;
 
-    public static final PersonalSettings DEFAULT_PERSONAL_SETTINGS = new PersonalSettings(new Person("pnr", "elliot"), Person.EMPTY_PERSON);
-
-    public PersonalSettings(Person child, Person parent) {
-        this.child = child;
-        this.parent = parent;
+    @Inject
+    public PersonalSettings(SharedPreferences sharedPreferences) {
+        this.sharedPreferences = sharedPreferences;
     }
 
-    private Person child;
-    private Person parent;
-
-    public Person getChild() {
-        return child;
+    public String getChildPersonnummer() {
+        return sharedPreferences.getString("childPnr", null);
     }
 
-    public void setChild(Person child) {
-        this.child = child;
+    public String getParentPersonnummer() {
+        return sharedPreferences.getString("parentPnr", null);
     }
 
-    public Person getParent() {
-        return parent;
+    public String getChildName() {
+        return sharedPreferences.getString("childName", null);
     }
 
-    public void setParent(Person parent) {
-        this.parent = parent;
-    }
 
 }
