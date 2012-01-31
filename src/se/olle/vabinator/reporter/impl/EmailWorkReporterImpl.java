@@ -28,7 +28,7 @@ public class EmailWorkReporterImpl implements VabReporter, BackToWorkReporter {
 
     private void sendMail(String toAddress, String subject, String text) {
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
-        emailIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        emailIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         emailIntent.setType("plain/text");
         emailIntent.putExtra(Intent.EXTRA_EMAIL, toAddress);
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, subject);

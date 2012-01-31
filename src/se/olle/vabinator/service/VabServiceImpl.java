@@ -1,5 +1,6 @@
 package se.olle.vabinator.service;
 
+import android.util.Log;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import se.olle.vabinator.domain.Child;
@@ -25,6 +26,7 @@ public class VabServiceImpl implements VabService {
 
     @Override
     public void doVab() {
+        Log.i("vabserviceimpl", personalSettings.toString());
         VabEvent event = new VabEvent(new Child(personalSettings.getChildPersonnummer(), personalSettings.getChildName()), new Date());
         vabEventDao.save(event);
         reporter.reportVAB(event);

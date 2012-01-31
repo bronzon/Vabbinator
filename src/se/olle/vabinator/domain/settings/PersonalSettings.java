@@ -14,16 +14,19 @@ public class PersonalSettings {
     }
 
     public String getChildPersonnummer() {
-        return sharedPreferences.getString("childPnr", null);
+        return sharedPreferences.getString("childPnr", "childpnr");
     }
 
     public String getParentPersonnummer() {
-        return sharedPreferences.getString("parentPnr", null);
+        return sharedPreferences.getString("parentPnr", "parentpnr");
     }
 
     public String getChildName() {
-        return sharedPreferences.getString("childName", null);
+        return sharedPreferences.getString("childName", "childname");
     }
 
-
+    @Override
+    public String toString() {
+        return getChildName() + ":" + getChildPersonnummer() + ":" + getParentPersonnummer();
+    }
 }

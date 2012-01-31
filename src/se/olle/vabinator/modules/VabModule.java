@@ -6,6 +6,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import com.google.inject.Scopes;
 import com.google.inject.Singleton;
+import roboguice.inject.SharedPreferencesName;
 import se.olle.vabinator.R;
 import se.olle.vabinator.domain.settings.EmailSettings;
 import se.olle.vabinator.persistance.VabEventDao;
@@ -37,6 +38,7 @@ public class VabModule extends AbstractModule {
         bind(VabReporter.class).annotatedWith(EmailReporter.class).to(EmailWorkReporterImpl.class).in(Scopes.SINGLETON);
         bind(BackToWorkReporter.class).to(EmailWorkReporterImpl.class).in(Scopes.SINGLETON);
         bind(OptionsMenuHandler.class).to(OptionsMenuHandlerImpl.class).in(Scopes.SINGLETON);
+        bindConstant().annotatedWith(SharedPreferencesName.class).to("se.olle.vabinator");
     }
 
     @Provides

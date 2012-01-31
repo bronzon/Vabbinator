@@ -32,6 +32,6 @@ public class EmailSettings {
 
     @Override
     public String toString() {
-        return getMailToAddress() + getReportBackToWorkText() + getReportVabText() + getSubjectText();
+        return getMailToAddress() + ":" + getReportBackToWorkText() + ":" + getReportVabText() + ":" + getSubjectText();
     }
 }
