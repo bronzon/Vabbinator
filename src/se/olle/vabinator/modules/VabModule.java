@@ -22,6 +22,8 @@ import se.olle.vabinator.service.VabService;
 import se.olle.vabinator.service.VabServiceImpl;
 import se.olle.vabinator.utils.EventLabelTextGenerator;
 import se.olle.vabinator.utils.EventLabelTextGeneratorImpl;
+import se.olle.vabinator.utils.OptionsMenuHandler;
+import se.olle.vabinator.utils.OptionsMenuHandlerImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -35,6 +37,7 @@ public class VabModule extends AbstractModule {
         bind(IDGenerator.class).to(IDGeneratorImpl.class).in(Scopes.SINGLETON);
         bind(VabReporter.class).annotatedWith(EmailReporter.class).to(EmailWorkReporterImpl.class).in(Scopes.SINGLETON);
         bind(BackToWorkReporter.class).to(EmailWorkReporterImpl.class).in(Scopes.SINGLETON);
+        bind(OptionsMenuHandler.class).to(OptionsMenuHandlerImpl.class).in(Scopes.SINGLETON);
     }
 
     @Provides

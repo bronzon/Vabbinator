@@ -2,11 +2,18 @@ package se.olle.vabinator.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.TabHost;
+import com.google.inject.Inject;
 import roboguice.activity.RoboTabActivity;
 import se.olle.vabinator.R;
+import se.olle.vabinator.utils.OptionsMenuHandler;
 
 public class MainTabActivity extends RoboTabActivity {
+    @Inject
+    private OptionsMenuHandler optionsMenuHandler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,5 +57,15 @@ public class MainTabActivity extends RoboTabActivity {
         public int getTabIndex() {
             return tabIndex;
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return optionsMenuHandler.onCreateOptionsMenu(getMenuInflater(), menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return optionsMenuHandler.onOptionsItemSelected(this, item);
     }
 }

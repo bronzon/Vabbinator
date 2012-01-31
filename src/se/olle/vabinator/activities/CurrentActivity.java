@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -19,6 +21,7 @@ import se.olle.vabinator.persistance.VabEventDao;
 import se.olle.vabinator.reporter.BackToWorkReporter;
 import se.olle.vabinator.reporter.VabReporter;
 import se.olle.vabinator.utils.EventLabelTextGenerator;
+import se.olle.vabinator.utils.OptionsMenuHandler;
 
 import java.util.Date;
 
@@ -35,6 +38,9 @@ public class CurrentActivity extends RoboActivity {
     private ImageButton reportBackToWorkButton;
     @InjectView(R.id.currentShowCalendar)
     private ImageButton showCalendarButton;
+    @Inject
+    private OptionsMenuHandler optionsMenuHandler;
+
 
     @Inject
     private Context context;
@@ -133,5 +139,15 @@ public class CurrentActivity extends RoboActivity {
 
     private void setupLabel(VabEvent vabEvent) {
         infoLabel.setText(eventLabelTextGenerator.getText(vabEvent));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return optionsMenuHandler.onOptionsItemSelected(this, item);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return optionsMenuHandler.onCreateOptionsMenu(getMenuInflater(), menu);
     }
 }

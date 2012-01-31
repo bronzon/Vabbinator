@@ -17,5 +17,7 @@
                   android:theme="@android:style/Theme.NoTitleBar"/>
         <activity android:name=".activities.CalendarActivity" android:label="@string/app_name"
                   android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".activities.preferences.ApplicationPreferenceActivity" android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar"/>
     </application>
 </manifest> 

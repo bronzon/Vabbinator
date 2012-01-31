@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Vabinator</string>
-    <string name="reportButtonText">Anmäl VAB</string>
-    <string name="removeConfirmation">Ta bort ärende?</string>
-    <string name="reMail">Skicka nytt mail till arbetet?</string>
-    <string name="yes">Ja</string>
-    <string name="no">Nej</string>
-    <string name="reported">Anmäldes:</string>
-    <string name="for_child">För:</string>
+    <string name="reportButtonText">Report VAB</string>
+    <string name="removeConfirmation">Remove event?</string>
+    <string name="reMail">Send new email to work?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="reported">Reported:</string>
+    <string name="for_child">For:</string>
+    <string name="settingsButtonText">Preferences</string>
 </resources>

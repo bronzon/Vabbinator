@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Misc">
+        <CheckBoxPreference android:title="One email per day" android:key="newEmailSetting" android:defaultValue="false"
+                            android:summary="Do you want a new email to be sent to work when adding a new date to your events?"/>
+        <EditTextPreference android:title="SMS number at FK" android:key="smsDestinationSetting"
+                            android:defaultValue="71020" android:summary="The destination for the report text message"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Personal">
+        <EditTextPreference android:title="Child personnummer" android:key="childPnrSetting"
+                            android:summary="Personnummer of your child, used in text to FK."/>
+        <EditTextPreference android:title="Your personnummer" android:key="parentPnrSetting"
+                            android:summary="Your personnummer, used in text to FK"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Email">
+        <EditTextPreference android:title="Work report VAB email" android:key="workEmail"
+                            android:summary="Address used when reporting VAB to work"/>
+        <EditTextPreference android:title="Initial email text" android:key="startEmailText"
+                            android:summary="Text sent to work when starting a VAB event"/>
+        <EditTextPreference android:title="Ending email text" android:key="startEmailText"
+                            android:summary="Text sent to work when your back in business"/>
+    </PreferenceCategory>
+</PreferenceScreen>
